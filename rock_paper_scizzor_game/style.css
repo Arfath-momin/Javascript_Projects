@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color:#FFF5E4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.container
+{
+   
+    height: 60vh;
+    width: 60vw;
+    text-align: center;
+    align-content: center;
+}
+
+.container h1{
+    text-decoration: underline;
+}
+
+.img-wrapper
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#stone , #paper ,#scizzor
+{
+
+    padding: 20px;
+    cursor: pointer;
+}
+
+#result
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.score-wrapper
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#your-score
+{
+    color: rgb(255, 0, 0);
+}
+#computer-score
+{
+    color: blue;
+}
+
+#reset
+{
+    padding: 10px 50px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(43, 43, 43);
+    font-size: 16px;
+    font-weight: 600;
+}
