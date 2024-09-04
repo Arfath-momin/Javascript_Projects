@@ -1,0 +1,117 @@
+/* primary : #ededed;
+   secondary : #808080; */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 100vh;
+}
+
+.search-container{
+    background-color:#808080 ;
+    display: flex;
+    gap: 10px;
+    padding: 015px 20px;
+    align-items: center;
+    width: 30%;
+    border-radius: 50px;
+}
+
+ input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    width: 100%;
+    cursor: context-menu
+   
+    
+}
+
+input::placeholder{
+    color: #ededed;
+}
+
+input:focus{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    width: 100%;
+    cursor: context-menu
+}
+
+.prayer-container{
+    background-color: white;
+    border-radius: 12px;
+    width: 50%;
+    padding: 20px;
+}
+
+.info-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.info-box h5{
+
+    color: #808080;
+}
+
+.salat-main-container{
+    display: flex;
+    gap: 0px;
+    justify-content: space-between;
+    
+   
+}
+
+.salat-items{
+    background-color:#ededed ;
+    padding: 20px 80px 20px 20px;
+    border-radius: 12px;
+}
+
+.additional-info-container{
+    
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.qible{ 
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.qible h5{
+    color: #808080;
+    font-size: 22px;
+}
+/* .additional-info-container div img{
+    color: #808080;
+    width: 34px;
+    display: inline;
+    align-self: center;
+    
+}
+.additional-info-container div h5{
+    color: #808080;
+    font-size: 24px;
+    display: inline;
+    
+} */
